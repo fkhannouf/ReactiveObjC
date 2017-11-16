@@ -105,7 +105,7 @@
 #pragma mark Disposal
 
 - (void)dispose {
-	RACDisposable *existingDisposable;
+	RACDisposable *existingDisposable = nil;
 
 	pthread_mutex_lock(&_mutex);
 	if (!_disposed) {

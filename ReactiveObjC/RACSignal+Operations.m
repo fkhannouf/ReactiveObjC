@@ -1129,7 +1129,7 @@ static RACDisposable *subscribeForever (RACSignal *signal, void (^next)(id), voi
 	NSCParameterAssert(predicateBlock != NULL);
 
 	return [[[self materialize] bind:^{
-		return ^(RACEvent *event, BOOL *stop) {
+		return Block_copy(^(RACEvent *event, BOOL *stop) {
 			if (event.finished) {
 				*stop = YES;
 				return [RACSignal return:@NO];
@@ -1141,7 +1141,7 @@ static RACDisposable *subscribeForever (RACSignal *signal, void (^next)(id), voi
 			}
 
 			return [RACSignal empty];
-		};
+		});
 	}] setNameWithFormat:@"[%@] -any:", self.name];
 }
 
@@ -1149,7 +1149,7 @@ static RACDisposable *subscribeForever (RACSignal *signal, void (^next)(id), voi
 	NSCParameterAssert(predicateBlock != NULL);
 
 	return [[[self materialize] bind:^{
-		return ^(RACEvent *event, BOOL *stop) {
+		return Block_copy(^(RACEvent *event, BOOL *stop) {
 			if (event.eventType == RACEventTypeCompleted) {
 				*stop = YES;
 				return [RACSignal return:@YES];
@@ -1161,7 +1161,7 @@ static RACDisposable *subscribeForever (RACSignal *signal, void (^next)(id), voi
 			}
 
 			return [RACSignal empty];
-		};
+		});
 	}] setNameWithFormat:@"[%@] -all:", self.name];
 }
 

@@ -74,12 +74,12 @@
 	Class class = self.class;
 
 	return [[self bind:^{
-		return ^(id value, BOOL *stop) {
+		return Block_copy(^(id value, BOOL *stop) {
 			id stream = block(value) ?: [class empty];
 			NSCAssert([stream isKindOfClass:RACStream.class], @"Value returned from -flattenMap: is not a stream: %@", stream);
 
 			return stream;
-		};
+		});
 	}] setNameWithFormat:@"[%@] -flattenMap:", self.name];
 }
 
@@ -161,12 +161,12 @@
 	return [[self bind:^{
 		__block NSUInteger skipped = 0;
 
-		return ^(id value, BOOL *stop) {
+		return Block_copy(^(id value, BOOL *stop) {
 			if (skipped >= skipCount) return [class return:value];
 
 			skipped++;
 			return class.empty;
-		};
+		});
 	}] setNameWithFormat:@"[%@] -skip: %lu", self.name, (unsigned long)skipCount];
 }
 
@@ -178,7 +178,7 @@
 	return [[self bind:^{
 		__block NSUInteger taken = 0;
 
-		return ^ id (id value, BOOL *stop) {
+		return Block_copy(^ id (id value, BOOL *stop) {
 			if (taken < count) {
 				++taken;
 				if (taken == count) *stop = YES;
@@ -186,7 +186,7 @@
 			} else {
 				return nil;
 			}
-		};
+		});
 	}] setNameWithFormat:@"[%@] -take: %lu", self.name, (unsigned long)count];
 }
 
@@ -276,10 +276,10 @@
 		__block id running = startingValue;
 		__block NSUInteger index = 0;
 
-		return ^(id value, BOOL *stop) {
+		return Block_copy(^(id value, BOOL *stop) {
 			running = reduceBlock(running, value, index++);
 			return [class return:running];
-		};
+		});
 	}] setNameWithFormat:@"[%@] -scanWithStart: %@ reduceWithIndex:", self.name, RACDescription(startingValue)];
 }
 
@@ -289,11 +289,11 @@
 	Class class = self.class;
 	
 	return [[self bind:^{
-		return ^ id (id value, BOOL *stop) {
+		return Block_copy(^ id (id value, BOOL *stop) {
 			if (predicate(value)) return nil;
 
 			return [class return:value];
-		};
+		});
 	}] setNameWithFormat:@"[%@] -takeUntilBlock:", self.name];
 }
 
@@ -313,7 +313,7 @@
 	return [[self bind:^{
 		__block BOOL skipping = YES;
 
-		return ^ id (id value, BOOL *stop) {
+		return Block_copy(^ id (id value, BOOL *stop) {
 			if (skipping) {
 				if (predicate(value)) {
 					skipping = NO;
@@ -323,7 +323,7 @@
 			}
 
 			return [class return:value];
-		};
+		});
 	}] setNameWithFormat:@"[%@] -skipUntilBlock:", self.name];
 }
 
@@ -342,13 +342,13 @@
 		__block id lastValue = nil;
 		__block BOOL initial = YES;
 
-		return ^(id x, BOOL *stop) {
+		return Block_copy(^(id x, BOOL *stop) {
 			if (!initial && (lastValue == x || [x isEqual:lastValue])) return [class empty];
 
 			initial = NO;
 			lastValue = x;
 			return [class return:x];
-		};
+		});
 	}] setNameWithFormat:@"[%@] -distinctUntilChanged", self.name];
 }
 
