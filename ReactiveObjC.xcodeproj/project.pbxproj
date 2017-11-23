@@ -153,56 +153,6 @@
 		6863CD5F1FBD750700D9D2BC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6863CD5E1FBD750700D9D2BC /* MapKit.framework */; };
 		7A7065811A3F88B8001E8354 /* RACKVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */; };
 		7A7065821A3F88B8001E8354 /* RACKVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */; };
-		7A7065841A3F8967001E8354 /* RACKVOProxySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */; };
-		7A7065851A3F8967001E8354 /* RACKVOProxySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */; };
-		7DFBED081CDB8C9500EE435B /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4D2411BA13D7A00F7D4B1 /* ReactiveObjC.framework */; };
-		7DFBED141CDB8CE600EE435B /* test-data.json in Resources */ = {isa = PBXBuildFile; fileRef = D03766B119EDA60000A782A9 /* test-data.json */; };
-		7DFBED1E1CDB8D7000EE435B /* ReactiveObjC.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4D2411BA13D7A00F7D4B1 /* ReactiveObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7DFBED1F1CDB8D7800EE435B /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7DFBED201CDB8D7D00EE435B /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7DFBED321CDB8DE300EE435B /* NSEnumeratorRACSequenceAdditionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667819EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m */; };
-		7DFBED331CDB8DE300EE435B /* NSNotificationCenterRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667919EDA60000A782A9 /* NSNotificationCenterRACSupportSpec.m */; };
-		7DFBED351CDB8DE300EE435B /* NSObjectRACDeallocatingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667B19EDA60000A782A9 /* NSObjectRACDeallocatingSpec.m */; };
-		7DFBED361CDB8DE300EE435B /* NSObjectRACLiftingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667C19EDA60000A782A9 /* NSObjectRACLiftingSpec.m */; };
-		7DFBED381CDB8DE300EE435B /* NSObjectRACPropertySubscribingExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667E19EDA60000A782A9 /* NSObjectRACPropertySubscribingExamples.m */; };
-		7DFBED391CDB8DE300EE435B /* NSObjectRACPropertySubscribingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667F19EDA60000A782A9 /* NSObjectRACPropertySubscribingSpec.m */; };
-		7DFBED3A1CDB8DE300EE435B /* NSObjectRACSelectorSignalSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668019EDA60000A782A9 /* NSObjectRACSelectorSignalSpec.m */; };
-		7DFBED3B1CDB8DE300EE435B /* NSStringRACKeyPathUtilitiesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668119EDA60000A782A9 /* NSStringRACKeyPathUtilitiesSpec.m */; };
-		7DFBED3D1CDB8DE300EE435B /* NSUserDefaultsRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668419EDA60000A782A9 /* NSUserDefaultsRACSupportSpec.m */; };
-		7DFBED3E1CDB8DE300EE435B /* RACBlockTrampolineSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668619EDA60000A782A9 /* RACBlockTrampolineSpec.m */; };
-		7DFBED401CDB8DE300EE435B /* RACChannelExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668819EDA60000A782A9 /* RACChannelExamples.m */; };
-		7DFBED411CDB8DE300EE435B /* RACChannelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668919EDA60000A782A9 /* RACChannelSpec.m */; };
-		7DFBED421CDB8DE300EE435B /* RACCommandSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668A19EDA60000A782A9 /* RACCommandSpec.m */; };
-		7DFBED431CDB8DE300EE435B /* RACCompoundDisposableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668B19EDA60000A782A9 /* RACCompoundDisposableSpec.m */; };
-		7DFBED451CDB8DE300EE435B /* RACControlCommandExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668D19EDA60000A782A9 /* RACControlCommandExamples.m */; };
-		7DFBED461CDB8DE300EE435B /* RACDelegateProxySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668E19EDA60000A782A9 /* RACDelegateProxySpec.m */; };
-		7DFBED471CDB8DE300EE435B /* RACDisposableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668F19EDA60000A782A9 /* RACDisposableSpec.m */; };
-		7DFBED481CDB8DE300EE435B /* RACEventSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669019EDA60000A782A9 /* RACEventSpec.m */; };
-		7DFBED491CDB8DE300EE435B /* RACKVOChannelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669119EDA60000A782A9 /* RACKVOChannelSpec.m */; };
-		7DFBED4A1CDB8DE300EE435B /* RACKVOProxySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */; };
-		7DFBED4B1CDB8DE300EE435B /* RACKVOWrapperSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669219EDA60000A782A9 /* RACKVOWrapperSpec.m */; };
-		7DFBED4C1CDB8DE300EE435B /* RACMulticastConnectionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669319EDA60000A782A9 /* RACMulticastConnectionSpec.m */; };
-		7DFBED4E1CDB8DE300EE435B /* RACPropertySignalExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669519EDA60000A782A9 /* RACPropertySignalExamples.m */; };
-		7DFBED4F1CDB8DE300EE435B /* RACSchedulerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669619EDA60000A782A9 /* RACSchedulerSpec.m */; };
-		7DFBED501CDB8DE300EE435B /* RACSequenceAdditionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669719EDA60000A782A9 /* RACSequenceAdditionsSpec.m */; };
-		7DFBED521CDB8DE300EE435B /* RACSequenceExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669919EDA60000A782A9 /* RACSequenceExamples.m */; };
-		7DFBED531CDB8DE300EE435B /* RACSequenceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669A19EDA60000A782A9 /* RACSequenceSpec.m */; };
-		7DFBED541CDB8DE300EE435B /* RACSerialDisposableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669B19EDA60000A782A9 /* RACSerialDisposableSpec.m */; };
-		7DFBED551CDB8DE300EE435B /* RACSignalSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669C19EDA60000A782A9 /* RACSignalSpec.m */; };
-		7DFBED571CDB8DE300EE435B /* RACStreamExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A019EDA60000A782A9 /* RACStreamExamples.m */; };
-		7DFBED591CDB8DE300EE435B /* RACSubclassObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A219EDA60000A782A9 /* RACSubclassObject.m */; };
-		7DFBED5A1CDB8DE300EE435B /* RACSubjectSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A319EDA60000A782A9 /* RACSubjectSpec.m */; };
-		7DFBED5C1CDB8DE300EE435B /* RACSubscriberExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A519EDA60000A782A9 /* RACSubscriberExamples.m */; };
-		7DFBED5D1CDB8DE300EE435B /* RACSubscriberSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A619EDA60000A782A9 /* RACSubscriberSpec.m */; };
-		7DFBED5E1CDB8DE300EE435B /* RACSubscriptingAssignmentTrampolineSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A719EDA60000A782A9 /* RACSubscriptingAssignmentTrampolineSpec.m */; };
-		7DFBED5F1CDB8DE300EE435B /* RACTargetQueueSchedulerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A819EDA60000A782A9 /* RACTargetQueueSchedulerSpec.m */; };
-		7DFBED601CDB8DE300EE435B /* RACTupleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766B019EDA60000A782A9 /* RACTupleSpec.m */; };
-		7DFBED631CDB8DE300EE435B /* UIBarButtonItemRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766B419EDA60000A782A9 /* UIBarButtonItemRACSupportSpec.m */; };
-		7DFBED641CDB8DE300EE435B /* UIButtonRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766B519EDA60000A782A9 /* UIButtonRACSupportSpec.m */; };
-		7DFBED671CDB8DE300EE435B /* RACTestExampleScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3131819EF2D9700984962 /* RACTestExampleScheduler.m */; };
-		7DFBED691CDB8DE300EE435B /* RACTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3131A19EF2D9700984962 /* RACTestObject.m */; };
-		7DFBED6A1CDB8DE300EE435B /* RACTestSchedulerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3131B19EF2D9700984962 /* RACTestSchedulerSpec.m */; };
-		7DFBED6C1CDB8DE300EE435B /* RACTestUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3131D19EF2D9700984962 /* RACTestUIButton.m */; };
 		7DFBED6E1CDB918900EE435B /* UIBarButtonItem+RACCommandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D03764C719EDA41200A782A9 /* UIBarButtonItem+RACCommandSupport.m */; };
 		7DFBED6F1CDB926400EE435B /* UIBarButtonItem+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D03764C619EDA41200A782A9 /* UIBarButtonItem+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1046B7A1BFF5661004D8045 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037666719EDA57100A782A9 /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -329,11 +279,6 @@
 		BEBDD6E61CDC292D009A75A9 /* RACDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646B19EDA41200A782A9 /* RACDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEBDD6E71CDC292E009A75A9 /* RACDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646B19EDA41200A782A9 /* RACDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEBDD6E81CDC292F009A75A9 /* RACDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646B19EDA41200A782A9 /* RACDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDF066CA1CDC1CA200199626 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; };
-		CDF066CB1CDC1CA200199626 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; };
-		D01B7B6219EDD8FE00D26E01 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D01B7B6319EDD8FE00D26E01 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D01B7B6419EDD94B00D26E01 /* ReactiveObjC.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D047260C19E49F82006002AA /* ReactiveObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D03764E819EDA41200A782A9 /* NSArray+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037642A19EDA41200A782A9 /* NSArray+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D03764E919EDA41200A782A9 /* NSArray+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D037642A19EDA41200A782A9 /* NSArray+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D03764EA19EDA41200A782A9 /* NSArray+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D037642B19EDA41200A782A9 /* NSArray+RACSequenceAdditions.m */; };
@@ -610,159 +555,10 @@
 		D037667219EDA57100A782A9 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = D037666919EDA57100A782A9 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D037667319EDA57100A782A9 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D037666A19EDA57100A782A9 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D037667419EDA57100A782A9 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D037666A19EDA57100A782A9 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D03766B919EDA60000A782A9 /* NSControllerRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667619EDA60000A782A9 /* NSControllerRACSupportSpec.m */; };
-		D03766BD19EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667819EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m */; };
-		D03766BE19EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667819EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m */; };
-		D03766BF19EDA60000A782A9 /* NSNotificationCenterRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667919EDA60000A782A9 /* NSNotificationCenterRACSupportSpec.m */; };
-		D03766C019EDA60000A782A9 /* NSNotificationCenterRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667919EDA60000A782A9 /* NSNotificationCenterRACSupportSpec.m */; };
-		D03766C119EDA60000A782A9 /* NSObjectRACAppKitBindingsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667A19EDA60000A782A9 /* NSObjectRACAppKitBindingsSpec.m */; };
-		D03766C319EDA60000A782A9 /* NSObjectRACDeallocatingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667B19EDA60000A782A9 /* NSObjectRACDeallocatingSpec.m */; };
-		D03766C419EDA60000A782A9 /* NSObjectRACDeallocatingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667B19EDA60000A782A9 /* NSObjectRACDeallocatingSpec.m */; };
-		D03766C519EDA60000A782A9 /* NSObjectRACLiftingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667C19EDA60000A782A9 /* NSObjectRACLiftingSpec.m */; };
-		D03766C619EDA60000A782A9 /* NSObjectRACLiftingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667C19EDA60000A782A9 /* NSObjectRACLiftingSpec.m */; };
-		D03766C719EDA60000A782A9 /* NSObjectRACPropertySubscribingExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667E19EDA60000A782A9 /* NSObjectRACPropertySubscribingExamples.m */; };
-		D03766C819EDA60000A782A9 /* NSObjectRACPropertySubscribingExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667E19EDA60000A782A9 /* NSObjectRACPropertySubscribingExamples.m */; };
-		D03766C919EDA60000A782A9 /* NSObjectRACPropertySubscribingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667F19EDA60000A782A9 /* NSObjectRACPropertySubscribingSpec.m */; };
-		D03766CA19EDA60000A782A9 /* NSObjectRACPropertySubscribingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037667F19EDA60000A782A9 /* NSObjectRACPropertySubscribingSpec.m */; };
-		D03766CB19EDA60000A782A9 /* NSObjectRACSelectorSignalSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668019EDA60000A782A9 /* NSObjectRACSelectorSignalSpec.m */; };
-		D03766CC19EDA60000A782A9 /* NSObjectRACSelectorSignalSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668019EDA60000A782A9 /* NSObjectRACSelectorSignalSpec.m */; };
-		D03766CD19EDA60000A782A9 /* NSStringRACKeyPathUtilitiesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668119EDA60000A782A9 /* NSStringRACKeyPathUtilitiesSpec.m */; };
-		D03766CE19EDA60000A782A9 /* NSStringRACKeyPathUtilitiesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668119EDA60000A782A9 /* NSStringRACKeyPathUtilitiesSpec.m */; };
-		D03766D119EDA60000A782A9 /* NSURLConnectionRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668319EDA60000A782A9 /* NSURLConnectionRACSupportSpec.m */; };
-		D03766D219EDA60000A782A9 /* NSURLConnectionRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668319EDA60000A782A9 /* NSURLConnectionRACSupportSpec.m */; };
-		D03766D319EDA60000A782A9 /* NSUserDefaultsRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668419EDA60000A782A9 /* NSUserDefaultsRACSupportSpec.m */; };
-		D03766D419EDA60000A782A9 /* NSUserDefaultsRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668419EDA60000A782A9 /* NSUserDefaultsRACSupportSpec.m */; };
-		D03766D719EDA60000A782A9 /* RACBlockTrampolineSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668619EDA60000A782A9 /* RACBlockTrampolineSpec.m */; };
-		D03766D819EDA60000A782A9 /* RACBlockTrampolineSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668619EDA60000A782A9 /* RACBlockTrampolineSpec.m */; };
-		D03766D919EDA60000A782A9 /* RACChannelExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668819EDA60000A782A9 /* RACChannelExamples.m */; };
-		D03766DA19EDA60000A782A9 /* RACChannelExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668819EDA60000A782A9 /* RACChannelExamples.m */; };
-		D03766DB19EDA60000A782A9 /* RACChannelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668919EDA60000A782A9 /* RACChannelSpec.m */; };
-		D03766DC19EDA60000A782A9 /* RACChannelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668919EDA60000A782A9 /* RACChannelSpec.m */; };
-		D03766DD19EDA60000A782A9 /* RACCommandSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668A19EDA60000A782A9 /* RACCommandSpec.m */; };
-		D03766DE19EDA60000A782A9 /* RACCommandSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668A19EDA60000A782A9 /* RACCommandSpec.m */; };
-		D03766DF19EDA60000A782A9 /* RACCompoundDisposableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668B19EDA60000A782A9 /* RACCompoundDisposableSpec.m */; };
-		D03766E019EDA60000A782A9 /* RACCompoundDisposableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668B19EDA60000A782A9 /* RACCompoundDisposableSpec.m */; };
-		D03766E119EDA60000A782A9 /* RACControlCommandExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668D19EDA60000A782A9 /* RACControlCommandExamples.m */; };
-		D03766E219EDA60000A782A9 /* RACControlCommandExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668D19EDA60000A782A9 /* RACControlCommandExamples.m */; };
-		D03766E319EDA60000A782A9 /* RACDelegateProxySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668E19EDA60000A782A9 /* RACDelegateProxySpec.m */; };
-		D03766E419EDA60000A782A9 /* RACDelegateProxySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668E19EDA60000A782A9 /* RACDelegateProxySpec.m */; };
-		D03766E519EDA60000A782A9 /* RACDisposableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668F19EDA60000A782A9 /* RACDisposableSpec.m */; };
-		D03766E619EDA60000A782A9 /* RACDisposableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037668F19EDA60000A782A9 /* RACDisposableSpec.m */; };
-		D03766E719EDA60000A782A9 /* RACEventSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669019EDA60000A782A9 /* RACEventSpec.m */; };
-		D03766E819EDA60000A782A9 /* RACEventSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669019EDA60000A782A9 /* RACEventSpec.m */; };
-		D03766E919EDA60000A782A9 /* RACKVOChannelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669119EDA60000A782A9 /* RACKVOChannelSpec.m */; };
-		D03766EA19EDA60000A782A9 /* RACKVOChannelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669119EDA60000A782A9 /* RACKVOChannelSpec.m */; };
-		D03766EB19EDA60000A782A9 /* RACKVOWrapperSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669219EDA60000A782A9 /* RACKVOWrapperSpec.m */; };
-		D03766EC19EDA60000A782A9 /* RACKVOWrapperSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669219EDA60000A782A9 /* RACKVOWrapperSpec.m */; };
-		D03766ED19EDA60000A782A9 /* RACMulticastConnectionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669319EDA60000A782A9 /* RACMulticastConnectionSpec.m */; };
-		D03766EE19EDA60000A782A9 /* RACMulticastConnectionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669319EDA60000A782A9 /* RACMulticastConnectionSpec.m */; };
-		D03766EF19EDA60000A782A9 /* RACPropertySignalExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669519EDA60000A782A9 /* RACPropertySignalExamples.m */; };
-		D03766F019EDA60000A782A9 /* RACPropertySignalExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669519EDA60000A782A9 /* RACPropertySignalExamples.m */; };
-		D03766F119EDA60000A782A9 /* RACSchedulerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669619EDA60000A782A9 /* RACSchedulerSpec.m */; };
-		D03766F219EDA60000A782A9 /* RACSchedulerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669619EDA60000A782A9 /* RACSchedulerSpec.m */; };
-		D03766F319EDA60000A782A9 /* RACSequenceAdditionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669719EDA60000A782A9 /* RACSequenceAdditionsSpec.m */; };
-		D03766F419EDA60000A782A9 /* RACSequenceAdditionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669719EDA60000A782A9 /* RACSequenceAdditionsSpec.m */; };
-		D03766F519EDA60000A782A9 /* RACSequenceExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669919EDA60000A782A9 /* RACSequenceExamples.m */; };
-		D03766F619EDA60000A782A9 /* RACSequenceExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669919EDA60000A782A9 /* RACSequenceExamples.m */; };
-		D03766F719EDA60000A782A9 /* RACSequenceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669A19EDA60000A782A9 /* RACSequenceSpec.m */; };
-		D03766F819EDA60000A782A9 /* RACSequenceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669A19EDA60000A782A9 /* RACSequenceSpec.m */; };
-		D03766F919EDA60000A782A9 /* RACSerialDisposableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669B19EDA60000A782A9 /* RACSerialDisposableSpec.m */; };
-		D03766FA19EDA60000A782A9 /* RACSerialDisposableSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669B19EDA60000A782A9 /* RACSerialDisposableSpec.m */; };
-		D03766FB19EDA60000A782A9 /* RACSignalSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669C19EDA60000A782A9 /* RACSignalSpec.m */; };
-		D03766FC19EDA60000A782A9 /* RACSignalSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D037669C19EDA60000A782A9 /* RACSignalSpec.m */; };
-		D03766FF19EDA60000A782A9 /* RACStreamExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A019EDA60000A782A9 /* RACStreamExamples.m */; };
-		D037670019EDA60000A782A9 /* RACStreamExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A019EDA60000A782A9 /* RACStreamExamples.m */; };
-		D037670119EDA60000A782A9 /* RACSubclassObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A219EDA60000A782A9 /* RACSubclassObject.m */; };
-		D037670219EDA60000A782A9 /* RACSubclassObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A219EDA60000A782A9 /* RACSubclassObject.m */; };
-		D037670319EDA60000A782A9 /* RACSubjectSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A319EDA60000A782A9 /* RACSubjectSpec.m */; };
-		D037670419EDA60000A782A9 /* RACSubjectSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A319EDA60000A782A9 /* RACSubjectSpec.m */; };
-		D037670519EDA60000A782A9 /* RACSubscriberExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A519EDA60000A782A9 /* RACSubscriberExamples.m */; };
-		D037670619EDA60000A782A9 /* RACSubscriberExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A519EDA60000A782A9 /* RACSubscriberExamples.m */; };
-		D037670719EDA60000A782A9 /* RACSubscriberSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A619EDA60000A782A9 /* RACSubscriberSpec.m */; };
-		D037670819EDA60000A782A9 /* RACSubscriberSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A619EDA60000A782A9 /* RACSubscriberSpec.m */; };
-		D037670919EDA60000A782A9 /* RACSubscriptingAssignmentTrampolineSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A719EDA60000A782A9 /* RACSubscriptingAssignmentTrampolineSpec.m */; };
-		D037670A19EDA60000A782A9 /* RACSubscriptingAssignmentTrampolineSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A719EDA60000A782A9 /* RACSubscriptingAssignmentTrampolineSpec.m */; };
-		D037670B19EDA60000A782A9 /* RACTargetQueueSchedulerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A819EDA60000A782A9 /* RACTargetQueueSchedulerSpec.m */; };
-		D037670C19EDA60000A782A9 /* RACTargetQueueSchedulerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766A819EDA60000A782A9 /* RACTargetQueueSchedulerSpec.m */; };
-		D037671519EDA60000A782A9 /* RACTupleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766B019EDA60000A782A9 /* RACTupleSpec.m */; };
-		D037671619EDA60000A782A9 /* RACTupleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766B019EDA60000A782A9 /* RACTupleSpec.m */; };
-		D037671719EDA60000A782A9 /* test-data.json in Resources */ = {isa = PBXBuildFile; fileRef = D03766B119EDA60000A782A9 /* test-data.json */; };
-		D037671819EDA60000A782A9 /* test-data.json in Resources */ = {isa = PBXBuildFile; fileRef = D03766B119EDA60000A782A9 /* test-data.json */; };
-		D037671A19EDA60000A782A9 /* UIActionSheetRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766B219EDA60000A782A9 /* UIActionSheetRACSupportSpec.m */; };
-		D037671C19EDA60000A782A9 /* UIAlertViewRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766B319EDA60000A782A9 /* UIAlertViewRACSupportSpec.m */; };
-		D037671E19EDA60000A782A9 /* UIBarButtonItemRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766B419EDA60000A782A9 /* UIBarButtonItemRACSupportSpec.m */; };
-		D037672019EDA60000A782A9 /* UIButtonRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766B519EDA60000A782A9 /* UIButtonRACSupportSpec.m */; };
-		D037672419EDA60000A782A9 /* UIImagePickerControllerRACSupportSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D03766B719EDA60000A782A9 /* UIImagePickerControllerRACSupportSpec.m */; };
 		D037672719EDA63400A782A9 /* RACBehaviorSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646019EDA41200A782A9 /* RACBehaviorSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D037672819EDA63500A782A9 /* RACBehaviorSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = D037646019EDA41200A782A9 /* RACBehaviorSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D037672D19EDA75D00A782A9 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; };
-		D037672F19EDA78B00A782A9 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D037672B19EDA75D00A782A9 /* Quick.framework */; };
 		D04725F019E49ED7006002AA /* ReactiveObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = D04725EF19E49ED7006002AA /* ReactiveObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04725F619E49ED7006002AA /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04725EA19E49ED7006002AA /* ReactiveObjC.framework */; };
-		D047261719E49F82006002AA /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D047260C19E49F82006002AA /* ReactiveObjC.framework */; };
-		D05E662519EDD82000904ACA /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; };
-		D05E662619EDD83000904ACA /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05E662419EDD82000904ACA /* Nimble.framework */; };
-		D0C3131E19EF2D9700984962 /* RACTestExampleScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3131819EF2D9700984962 /* RACTestExampleScheduler.m */; };
-		D0C3131F19EF2D9700984962 /* RACTestExampleScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3131819EF2D9700984962 /* RACTestExampleScheduler.m */; };
-		D0C3132019EF2D9700984962 /* RACTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3131A19EF2D9700984962 /* RACTestObject.m */; };
-		D0C3132119EF2D9700984962 /* RACTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3131A19EF2D9700984962 /* RACTestObject.m */; };
-		D0C3132219EF2D9700984962 /* RACTestSchedulerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3131B19EF2D9700984962 /* RACTestSchedulerSpec.m */; };
-		D0C3132319EF2D9700984962 /* RACTestSchedulerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3131B19EF2D9700984962 /* RACTestSchedulerSpec.m */; };
-		D0C3132519EF2D9700984962 /* RACTestUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3131D19EF2D9700984962 /* RACTestUIButton.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7DFBED091CDB8C9500EE435B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D04725E119E49ED7006002AA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 57A4D1AF1BA13D7A00F7D4B1;
-			remoteInfo = "ReactiveCocoa-tvOS";
-		};
-		D04725F719E49ED7006002AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D04725E119E49ED7006002AA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D04725E919E49ED7006002AA;
-			remoteInfo = ReactiveCocoa;
-		};
-		D047261819E49F82006002AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D04725E119E49ED7006002AA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D047260B19E49F82006002AA;
-			remoteInfo = ReactiveCocoa;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		7DFBED151CDB8CEC00EE435B /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				7DFBED201CDB8D7D00EE435B /* Nimble.framework in Copy Frameworks */,
-				7DFBED1F1CDB8D7800EE435B /* Quick.framework in Copy Frameworks */,
-				7DFBED1E1CDB8D7000EE435B /* ReactiveObjC.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01B7B6119EDD8F600D26E01 /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D01B7B6219EDD8FE00D26E01 /* Nimble.framework in Copy Frameworks */,
-				D01B7B6319EDD8FE00D26E01 /* Quick.framework in Copy Frameworks */,
-				D01B7B6419EDD94B00D26E01 /* ReactiveObjC.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		314304151ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+RACSignalSupport.h"; sourceTree = "<group>"; };
@@ -771,7 +567,6 @@
 		57A4D2411BA13D7A00F7D4B1 /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A4D2441BA13F9700F7D4B1 /* tvOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Application.xcconfig"; sourceTree = "<group>"; };
 		57A4D2451BA13F9700F7D4B1 /* tvOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Base.xcconfig"; sourceTree = "<group>"; };
-		57A4D2461BA13F9700F7D4B1 /* tvOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		57A4D2471BA13F9700F7D4B1 /* tvOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		6863CD5A1FBD74BF00D9D2BC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		6863CD5C1FBD74F500D9D2BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -779,10 +574,8 @@
 		7A70657D1A3F88B8001E8354 /* RACKVOProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACKVOProxy.h; sourceTree = "<group>"; };
 		7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACKVOProxy.m; sourceTree = "<group>"; };
 		7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACKVOProxySpec.m; sourceTree = "<group>"; };
-		7DFBED031CDB8C9500EE435B /* ReactiveObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97451331B3A935E00F48E55 /* watchOS-Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Application.xcconfig"; sourceTree = "<group>"; };
 		A97451341B3A935E00F48E55 /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
-		A97451351B3A935E00F48E55 /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		A97451361B3A935E00F48E55 /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		A9B315541B3940610001CB9C /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D037642A19EDA41200A782A9 /* NSArray+RACSequenceAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RACSequenceAdditions.h"; sourceTree = "<group>"; };
@@ -1033,26 +826,18 @@
 		D04725EA19E49ED7006002AA /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04725EE19E49ED7006002AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D04725EF19E49ED7006002AA /* ReactiveObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveObjC.h; sourceTree = "<group>"; };
-		D04725F519E49ED7006002AA /* ReactiveObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04725FB19E49ED7006002AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D047260C19E49F82006002AA /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D047261619E49F82006002AA /* ReactiveObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D047262719E49FE8006002AA /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		D047262919E49FE8006002AA /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		D047262A19E49FE8006002AA /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
-		D047262B19E49FE8006002AA /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		D047262C19E49FE8006002AA /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
 		D047262E19E49FE8006002AA /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
 		D047262F19E49FE8006002AA /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
 		D047263019E49FE8006002AA /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
 		D047263219E49FE8006002AA /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
 		D047263319E49FE8006002AA /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
-		D047263419E49FE8006002AA /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		D047263519E49FE8006002AA /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		D047263719E49FE8006002AA /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
 		D047263819E49FE8006002AA /* Mac-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
 		D047263919E49FE8006002AA /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
-		D047263A19E49FE8006002AA /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
 		D047263B19E49FE8006002AA /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		D047263C19E49FE8006002AA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D05E662419EDD82000904ACA /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1073,16 +858,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DFBED001CDB8C9500EE435B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CDF066CA1CDC1CA200199626 /* Nimble.framework in Frameworks */,
-				CDF066CB1CDC1CA200199626 /* Quick.framework in Frameworks */,
-				7DFBED081CDB8C9500EE435B /* ReactiveObjC.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A9B315501B3940610001CB9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1098,32 +873,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D04725F219E49ED7006002AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D05E662519EDD82000904ACA /* Nimble.framework in Frameworks */,
-				D037672D19EDA75D00A782A9 /* Quick.framework in Frameworks */,
-				D04725F619E49ED7006002AA /* ReactiveObjC.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D047260819E49F82006002AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6863CD5F1FBD750700D9D2BC /* MapKit.framework in Frameworks */,
 				6863CD5D1FBD74FC00D9D2BC /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D047261319E49F82006002AA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D05E662619EDD83000904ACA /* Nimble.framework in Frameworks */,
-				D037672F19EDA78B00A782A9 /* Quick.framework in Frameworks */,
-				D047261719E49F82006002AA /* ReactiveObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1190,12 +945,9 @@
 			isa = PBXGroup;
 			children = (
 				D04725EA19E49ED7006002AA /* ReactiveObjC.framework */,
-				D04725F519E49ED7006002AA /* ReactiveObjCTests.xctest */,
 				D047260C19E49F82006002AA /* ReactiveObjC.framework */,
-				D047261619E49F82006002AA /* ReactiveObjCTests.xctest */,
 				A9B315541B3940610001CB9C /* ReactiveObjC.framework */,
 				57A4D2411BA13D7A00F7D4B1 /* ReactiveObjC.framework */,
-				7DFBED031CDB8C9500EE435B /* ReactiveObjCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1843,25 +1595,6 @@
 			productReference = 57A4D2411BA13D7A00F7D4B1 /* ReactiveObjC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7DFBED021CDB8C9500EE435B /* ReactiveObjC-tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7DFBED0F1CDB8C9500EE435B /* Build configuration list for PBXNativeTarget "ReactiveObjC-tvOSTests" */;
-			buildPhases = (
-				7DFBECFF1CDB8C9500EE435B /* Sources */,
-				7DFBED001CDB8C9500EE435B /* Frameworks */,
-				7DFBED011CDB8C9500EE435B /* Resources */,
-				7DFBED151CDB8CEC00EE435B /* Copy Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7DFBED0A1CDB8C9500EE435B /* PBXTargetDependency */,
-			);
-			name = "ReactiveObjC-tvOSTests";
-			productName = "ReactiveCocoa-tvOSTests";
-			productReference = 7DFBED031CDB8C9500EE435B /* ReactiveObjCTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		A9B315531B3940610001CB9C /* ReactiveObjC-watchOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9B3155D1B3940610001CB9C /* Build configuration list for PBXNativeTarget "ReactiveObjC-watchOS" */;
@@ -1898,24 +1631,6 @@
 			productReference = D04725EA19E49ED7006002AA /* ReactiveObjC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D04725F419E49ED7006002AA /* ReactiveObjC-macOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D047260319E49ED7006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC-macOSTests" */;
-			buildPhases = (
-				D04725F119E49ED7006002AA /* Sources */,
-				D04725F219E49ED7006002AA /* Frameworks */,
-				D04725F319E49ED7006002AA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D04725F819E49ED7006002AA /* PBXTargetDependency */,
-			);
-			name = "ReactiveObjC-macOSTests";
-			productName = ReactiveCocoaTests;
-			productReference = D04725F519E49ED7006002AA /* ReactiveObjCTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D047260B19E49F82006002AA /* ReactiveObjC-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D047261F19E49F82006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC-iOS" */;
@@ -1934,25 +1649,6 @@
 			productReference = D047260C19E49F82006002AA /* ReactiveObjC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D047261519E49F82006002AA /* ReactiveObjC-iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D047262219E49F82006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC-iOSTests" */;
-			buildPhases = (
-				D047261219E49F82006002AA /* Sources */,
-				D047261319E49F82006002AA /* Frameworks */,
-				D047261419E49F82006002AA /* Resources */,
-				D01B7B6119EDD8F600D26E01 /* Copy Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D047261919E49F82006002AA /* PBXTargetDependency */,
-			);
-			name = "ReactiveObjC-iOSTests";
-			productName = ReactiveCocoaTests;
-			productReference = D047261619E49F82006002AA /* ReactiveObjCTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1960,14 +1656,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = GitHub;
 				TargetAttributes = {
 					57A4D1AF1BA13D7A00F7D4B1 = {
-						LastSwiftMigration = 0800;
-					};
-					7DFBED021CDB8C9500EE435B = {
-						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0800;
 					};
 					A9B315531B3940610001CB9C = {
@@ -1978,15 +1670,7 @@
 						CreatedOnToolsVersion = 6.1;
 						LastSwiftMigration = 0800;
 					};
-					D04725F419E49ED7006002AA = {
-						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 0800;
-					};
 					D047260B19E49F82006002AA = {
-						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 0800;
-					};
-					D047261519E49F82006002AA = {
 						CreatedOnToolsVersion = 6.1;
 						LastSwiftMigration = 0800;
 					};
@@ -2005,12 +1689,9 @@
 			projectRoot = "";
 			targets = (
 				D04725E919E49ED7006002AA /* ReactiveObjC-macOS */,
-				D04725F419E49ED7006002AA /* ReactiveObjC-macOSTests */,
 				D047260B19E49F82006002AA /* ReactiveObjC-iOS */,
-				D047261519E49F82006002AA /* ReactiveObjC-iOSTests */,
 				A9B315531B3940610001CB9C /* ReactiveObjC-watchOS */,
 				57A4D1AF1BA13D7A00F7D4B1 /* ReactiveObjC-tvOS */,
-				7DFBED021CDB8C9500EE435B /* ReactiveObjC-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -2020,14 +1701,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DFBED011CDB8C9500EE435B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DFBED141CDB8CE600EE435B /* test-data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2045,26 +1718,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D04725F319E49ED7006002AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D037671719EDA60000A782A9 /* test-data.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D047260A19E49F82006002AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D047261419E49F82006002AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D037671819EDA60000A782A9 /* test-data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2155,56 +1812,6 @@
 				57A4D2031BA13D7A00F7D4B1 /* RACUnarySequence.m in Sources */,
 				57A4D2041BA13D7A00F7D4B1 /* RACUnit.m in Sources */,
 				57A4D2051BA13D7A00F7D4B1 /* RACValueTransformer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DFBECFF1CDB8C9500EE435B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DFBED321CDB8DE300EE435B /* NSEnumeratorRACSequenceAdditionsSpec.m in Sources */,
-				7DFBED331CDB8DE300EE435B /* NSNotificationCenterRACSupportSpec.m in Sources */,
-				7DFBED351CDB8DE300EE435B /* NSObjectRACDeallocatingSpec.m in Sources */,
-				7DFBED361CDB8DE300EE435B /* NSObjectRACLiftingSpec.m in Sources */,
-				7DFBED381CDB8DE300EE435B /* NSObjectRACPropertySubscribingExamples.m in Sources */,
-				7DFBED391CDB8DE300EE435B /* NSObjectRACPropertySubscribingSpec.m in Sources */,
-				7DFBED3A1CDB8DE300EE435B /* NSObjectRACSelectorSignalSpec.m in Sources */,
-				7DFBED3B1CDB8DE300EE435B /* NSStringRACKeyPathUtilitiesSpec.m in Sources */,
-				7DFBED3D1CDB8DE300EE435B /* NSUserDefaultsRACSupportSpec.m in Sources */,
-				7DFBED3E1CDB8DE300EE435B /* RACBlockTrampolineSpec.m in Sources */,
-				7DFBED401CDB8DE300EE435B /* RACChannelExamples.m in Sources */,
-				7DFBED411CDB8DE300EE435B /* RACChannelSpec.m in Sources */,
-				7DFBED421CDB8DE300EE435B /* RACCommandSpec.m in Sources */,
-				7DFBED431CDB8DE300EE435B /* RACCompoundDisposableSpec.m in Sources */,
-				7DFBED451CDB8DE300EE435B /* RACControlCommandExamples.m in Sources */,
-				7DFBED461CDB8DE300EE435B /* RACDelegateProxySpec.m in Sources */,
-				7DFBED471CDB8DE300EE435B /* RACDisposableSpec.m in Sources */,
-				7DFBED481CDB8DE300EE435B /* RACEventSpec.m in Sources */,
-				7DFBED491CDB8DE300EE435B /* RACKVOChannelSpec.m in Sources */,
-				7DFBED4A1CDB8DE300EE435B /* RACKVOProxySpec.m in Sources */,
-				7DFBED4B1CDB8DE300EE435B /* RACKVOWrapperSpec.m in Sources */,
-				7DFBED4C1CDB8DE300EE435B /* RACMulticastConnectionSpec.m in Sources */,
-				7DFBED4E1CDB8DE300EE435B /* RACPropertySignalExamples.m in Sources */,
-				7DFBED4F1CDB8DE300EE435B /* RACSchedulerSpec.m in Sources */,
-				7DFBED501CDB8DE300EE435B /* RACSequenceAdditionsSpec.m in Sources */,
-				7DFBED521CDB8DE300EE435B /* RACSequenceExamples.m in Sources */,
-				7DFBED531CDB8DE300EE435B /* RACSequenceSpec.m in Sources */,
-				7DFBED541CDB8DE300EE435B /* RACSerialDisposableSpec.m in Sources */,
-				7DFBED551CDB8DE300EE435B /* RACSignalSpec.m in Sources */,
-				7DFBED571CDB8DE300EE435B /* RACStreamExamples.m in Sources */,
-				7DFBED591CDB8DE300EE435B /* RACSubclassObject.m in Sources */,
-				7DFBED5A1CDB8DE300EE435B /* RACSubjectSpec.m in Sources */,
-				7DFBED5C1CDB8DE300EE435B /* RACSubscriberExamples.m in Sources */,
-				7DFBED5D1CDB8DE300EE435B /* RACSubscriberSpec.m in Sources */,
-				7DFBED5E1CDB8DE300EE435B /* RACSubscriptingAssignmentTrampolineSpec.m in Sources */,
-				7DFBED5F1CDB8DE300EE435B /* RACTargetQueueSchedulerSpec.m in Sources */,
-				7DFBED601CDB8DE300EE435B /* RACTupleSpec.m in Sources */,
-				7DFBED631CDB8DE300EE435B /* UIBarButtonItemRACSupportSpec.m in Sources */,
-				7DFBED641CDB8DE300EE435B /* UIButtonRACSupportSpec.m in Sources */,
-				7DFBED671CDB8DE300EE435B /* RACTestExampleScheduler.m in Sources */,
-				7DFBED691CDB8DE300EE435B /* RACTestObject.m in Sources */,
-				7DFBED6A1CDB8DE300EE435B /* RACTestSchedulerSpec.m in Sources */,
-				7DFBED6C1CDB8DE300EE435B /* RACTestUIButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2365,56 +1972,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D04725F119E49ED7006002AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D03766C719EDA60000A782A9 /* NSObjectRACPropertySubscribingExamples.m in Sources */,
-				D03766E319EDA60000A782A9 /* RACDelegateProxySpec.m in Sources */,
-				D03766F919EDA60000A782A9 /* RACSerialDisposableSpec.m in Sources */,
-				D0C3131E19EF2D9700984962 /* RACTestExampleScheduler.m in Sources */,
-				D037670B19EDA60000A782A9 /* RACTargetQueueSchedulerSpec.m in Sources */,
-				D03766DD19EDA60000A782A9 /* RACCommandSpec.m in Sources */,
-				D037670919EDA60000A782A9 /* RACSubscriptingAssignmentTrampolineSpec.m in Sources */,
-				D03766EB19EDA60000A782A9 /* RACKVOWrapperSpec.m in Sources */,
-				D03766E719EDA60000A782A9 /* RACEventSpec.m in Sources */,
-				D03766F719EDA60000A782A9 /* RACSequenceSpec.m in Sources */,
-				D03766C919EDA60000A782A9 /* NSObjectRACPropertySubscribingSpec.m in Sources */,
-				D03766C319EDA60000A782A9 /* NSObjectRACDeallocatingSpec.m in Sources */,
-				D03766BD19EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m in Sources */,
-				D037670119EDA60000A782A9 /* RACSubclassObject.m in Sources */,
-				D03766CD19EDA60000A782A9 /* NSStringRACKeyPathUtilitiesSpec.m in Sources */,
-				D037671519EDA60000A782A9 /* RACTupleSpec.m in Sources */,
-				D03766C519EDA60000A782A9 /* NSObjectRACLiftingSpec.m in Sources */,
-				D03766D119EDA60000A782A9 /* NSURLConnectionRACSupportSpec.m in Sources */,
-				D03766F319EDA60000A782A9 /* RACSequenceAdditionsSpec.m in Sources */,
-				D03766ED19EDA60000A782A9 /* RACMulticastConnectionSpec.m in Sources */,
-				D03766E919EDA60000A782A9 /* RACKVOChannelSpec.m in Sources */,
-				D03766FB19EDA60000A782A9 /* RACSignalSpec.m in Sources */,
-				7A7065841A3F8967001E8354 /* RACKVOProxySpec.m in Sources */,
-				D037670719EDA60000A782A9 /* RACSubscriberSpec.m in Sources */,
-				D03766EF19EDA60000A782A9 /* RACPropertySignalExamples.m in Sources */,
-				D037670519EDA60000A782A9 /* RACSubscriberExamples.m in Sources */,
-				D0C3132219EF2D9700984962 /* RACTestSchedulerSpec.m in Sources */,
-				D03766D719EDA60000A782A9 /* RACBlockTrampolineSpec.m in Sources */,
-				D03766FF19EDA60000A782A9 /* RACStreamExamples.m in Sources */,
-				D03766CB19EDA60000A782A9 /* NSObjectRACSelectorSignalSpec.m in Sources */,
-				D03766E119EDA60000A782A9 /* RACControlCommandExamples.m in Sources */,
-				D03766BF19EDA60000A782A9 /* NSNotificationCenterRACSupportSpec.m in Sources */,
-				D037670319EDA60000A782A9 /* RACSubjectSpec.m in Sources */,
-				D03766F119EDA60000A782A9 /* RACSchedulerSpec.m in Sources */,
-				D03766DF19EDA60000A782A9 /* RACCompoundDisposableSpec.m in Sources */,
-				D03766E519EDA60000A782A9 /* RACDisposableSpec.m in Sources */,
-				D0C3132019EF2D9700984962 /* RACTestObject.m in Sources */,
-				D03766D319EDA60000A782A9 /* NSUserDefaultsRACSupportSpec.m in Sources */,
-				D03766C119EDA60000A782A9 /* NSObjectRACAppKitBindingsSpec.m in Sources */,
-				D03766DB19EDA60000A782A9 /* RACChannelSpec.m in Sources */,
-				D03766D919EDA60000A782A9 /* RACChannelExamples.m in Sources */,
-				D03766F519EDA60000A782A9 /* RACSequenceExamples.m in Sources */,
-				D03766B919EDA60000A782A9 /* NSControllerRACSupportSpec.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D047260719E49F82006002AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2512,100 +2069,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D047261219E49F82006002AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D03766C819EDA60000A782A9 /* NSObjectRACPropertySubscribingExamples.m in Sources */,
-				D037672419EDA60000A782A9 /* UIImagePickerControllerRACSupportSpec.m in Sources */,
-				D03766E419EDA60000A782A9 /* RACDelegateProxySpec.m in Sources */,
-				D03766FA19EDA60000A782A9 /* RACSerialDisposableSpec.m in Sources */,
-				D037670C19EDA60000A782A9 /* RACTargetQueueSchedulerSpec.m in Sources */,
-				D03766DE19EDA60000A782A9 /* RACCommandSpec.m in Sources */,
-				D037670A19EDA60000A782A9 /* RACSubscriptingAssignmentTrampolineSpec.m in Sources */,
-				D03766EC19EDA60000A782A9 /* RACKVOWrapperSpec.m in Sources */,
-				D03766E819EDA60000A782A9 /* RACEventSpec.m in Sources */,
-				D03766F819EDA60000A782A9 /* RACSequenceSpec.m in Sources */,
-				D037671E19EDA60000A782A9 /* UIBarButtonItemRACSupportSpec.m in Sources */,
-				D03766CA19EDA60000A782A9 /* NSObjectRACPropertySubscribingSpec.m in Sources */,
-				D0C3132319EF2D9700984962 /* RACTestSchedulerSpec.m in Sources */,
-				D03766C419EDA60000A782A9 /* NSObjectRACDeallocatingSpec.m in Sources */,
-				D03766BE19EDA60000A782A9 /* NSEnumeratorRACSequenceAdditionsSpec.m in Sources */,
-				D037672019EDA60000A782A9 /* UIButtonRACSupportSpec.m in Sources */,
-				D0C3132519EF2D9700984962 /* RACTestUIButton.m in Sources */,
-				D037670219EDA60000A782A9 /* RACSubclassObject.m in Sources */,
-				D03766CE19EDA60000A782A9 /* NSStringRACKeyPathUtilitiesSpec.m in Sources */,
-				D037671619EDA60000A782A9 /* RACTupleSpec.m in Sources */,
-				7A7065851A3F8967001E8354 /* RACKVOProxySpec.m in Sources */,
-				D03766C619EDA60000A782A9 /* NSObjectRACLiftingSpec.m in Sources */,
-				D0C3131F19EF2D9700984962 /* RACTestExampleScheduler.m in Sources */,
-				D03766D219EDA60000A782A9 /* NSURLConnectionRACSupportSpec.m in Sources */,
-				D03766F419EDA60000A782A9 /* RACSequenceAdditionsSpec.m in Sources */,
-				D03766EE19EDA60000A782A9 /* RACMulticastConnectionSpec.m in Sources */,
-				D03766EA19EDA60000A782A9 /* RACKVOChannelSpec.m in Sources */,
-				D0C3132119EF2D9700984962 /* RACTestObject.m in Sources */,
-				D03766FC19EDA60000A782A9 /* RACSignalSpec.m in Sources */,
-				D037670819EDA60000A782A9 /* RACSubscriberSpec.m in Sources */,
-				D037671C19EDA60000A782A9 /* UIAlertViewRACSupportSpec.m in Sources */,
-				D03766F019EDA60000A782A9 /* RACPropertySignalExamples.m in Sources */,
-				D037670619EDA60000A782A9 /* RACSubscriberExamples.m in Sources */,
-				D03766D819EDA60000A782A9 /* RACBlockTrampolineSpec.m in Sources */,
-				D037670019EDA60000A782A9 /* RACStreamExamples.m in Sources */,
-				D03766CC19EDA60000A782A9 /* NSObjectRACSelectorSignalSpec.m in Sources */,
-				D03766E219EDA60000A782A9 /* RACControlCommandExamples.m in Sources */,
-				D03766C019EDA60000A782A9 /* NSNotificationCenterRACSupportSpec.m in Sources */,
-				D037670419EDA60000A782A9 /* RACSubjectSpec.m in Sources */,
-				D03766F219EDA60000A782A9 /* RACSchedulerSpec.m in Sources */,
-				D03766E019EDA60000A782A9 /* RACCompoundDisposableSpec.m in Sources */,
-				D03766E619EDA60000A782A9 /* RACDisposableSpec.m in Sources */,
-				D03766D419EDA60000A782A9 /* NSUserDefaultsRACSupportSpec.m in Sources */,
-				D03766DC19EDA60000A782A9 /* RACChannelSpec.m in Sources */,
-				D037671A19EDA60000A782A9 /* UIActionSheetRACSupportSpec.m in Sources */,
-				D03766DA19EDA60000A782A9 /* RACChannelExamples.m in Sources */,
-				D03766F619EDA60000A782A9 /* RACSequenceExamples.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		7DFBED0A1CDB8C9500EE435B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 57A4D1AF1BA13D7A00F7D4B1 /* ReactiveObjC-tvOS */;
-			targetProxy = 7DFBED091CDB8C9500EE435B /* PBXContainerItemProxy */;
-		};
-		D04725F819E49ED7006002AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D04725E919E49ED7006002AA /* ReactiveObjC-macOS */;
-			targetProxy = D04725F719E49ED7006002AA /* PBXContainerItemProxy */;
-		};
-		D047261919E49F82006002AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D047260B19E49F82006002AA /* ReactiveObjC-iOS */;
-			targetProxy = D047261819E49F82006002AA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		57A4D23D1BA13D7A00F7D4B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57A4D2461BA13F9700F7D4B1 /* tvOS-Framework.xcconfig */;
-			buildSettings = {
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				ENABLE_BITCODE = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"DTRACE_PROBES_DISABLED=1",
-				);
-				INFOPLIST_FILE = ReactiveObjC/Info.plist;
-			};
-			name = Debug;
-		};
 		57A4D23E1BA13D7A00F7D4B1 /* Test */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57A4D2461BA13F9700F7D4B1 /* tvOS-Framework.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
@@ -2614,6 +2085,7 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
+				SDKROOT = appletvos;
 			};
 			name = Test;
 		};
@@ -2621,6 +2093,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57A4D2461BA13F9700F7D4B1 /* tvOS-Framework.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
@@ -2629,6 +2102,7 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
+				SDKROOT = appletvos;
 			};
 			name = Release;
 		};
@@ -2636,6 +2110,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57A4D2461BA13F9700F7D4B1 /* tvOS-Framework.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
@@ -2644,92 +2119,15 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
+				SDKROOT = appletvos;
 			};
 			name = Profile;
-		};
-		7DFBED0B1CDB8C9500EE435B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57A4D2441BA13F9700F7D4B1 /* tvOS-Application.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-			};
-			name = Debug;
-		};
-		7DFBED0C1CDB8C9500EE435B /* Test */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57A4D2441BA13F9700F7D4B1 /* tvOS-Application.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-			};
-			name = Test;
-		};
-		7DFBED0D1CDB8C9500EE435B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57A4D2441BA13F9700F7D4B1 /* tvOS-Application.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-			};
-			name = Release;
-		};
-		7DFBED0E1CDB8C9500EE435B /* Profile */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57A4D2441BA13F9700F7D4B1 /* tvOS-Application.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-			};
-			name = Profile;
-		};
-		A9B315591B3940610001CB9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A97451351B3A935E00F48E55 /* watchOS-Framework.xcconfig */;
-			buildSettings = {
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				ENABLE_BITCODE = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"DTRACE_PROBES_DISABLED=1",
-				);
-				INFOPLIST_FILE = ReactiveObjC/Info.plist;
-			};
-			name = Debug;
 		};
 		A9B3155A1B3940610001CB9C /* Test */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A97451351B3A935E00F48E55 /* watchOS-Framework.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
@@ -2738,6 +2136,7 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
+				SDKROOT = watchos;
 			};
 			name = Test;
 		};
@@ -2745,6 +2144,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A97451351B3A935E00F48E55 /* watchOS-Framework.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
@@ -2753,6 +2153,7 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
+				SDKROOT = watchos;
 			};
 			name = Release;
 		};
@@ -2760,6 +2161,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A97451351B3A935E00F48E55 /* watchOS-Framework.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = YES;
@@ -2768,57 +2170,9 @@
 					"DTRACE_PROBES_DISABLED=1",
 				);
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
+				SDKROOT = watchos;
 			};
 			name = Profile;
-		};
-		D04725FE19E49ED7006002AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D047262919E49FE8006002AA /* Debug.xcconfig */;
-			buildSettings = {
-				BITCODE_GENERATION_MODE = bitcode;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WARNING_CFLAGS = (
-					"$(inherited)",
-					"-Wnullability-completeness",
-				);
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
 		};
 		D04725FF19E49ED7006002AA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2868,19 +2222,6 @@
 			};
 			name = Release;
 		};
-		D047260119E49ED7006002AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D047263A19E49FE8006002AA /* Mac-Framework.xcconfig */;
-			buildSettings = {
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = ReactiveObjC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
-			};
-			name = Debug;
-		};
 		D047260219E49ED7006002AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047263A19E49FE8006002AA /* Mac-Framework.xcconfig */;
@@ -2894,51 +2235,6 @@
 			};
 			name = Release;
 		};
-		D047260419E49ED7006002AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D047263719E49FE8006002AA /* Mac-Application.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-			};
-			name = Debug;
-		};
-		D047260519E49ED7006002AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D047263719E49FE8006002AA /* Mac-Application.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-			};
-			name = Release;
-		};
-		D047262019E49F82006002AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
-			buildSettings = {
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = ReactiveObjC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
-			};
-			name = Debug;
-		};
 		D047262119E49F82006002AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
@@ -2951,28 +2247,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
-			};
-			name = Release;
-		};
-		D047262319E49F82006002AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D047263219E49FE8006002AA /* iOS-Application.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-			};
-			name = Debug;
-		};
-		D047262419E49F82006002AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D047263219E49FE8006002AA /* iOS-Application.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 			};
 			name = Release;
 		};
@@ -3036,21 +2310,6 @@
 			};
 			name = Profile;
 		};
-		D047263F19E4A008006002AA /* Profile */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D047263719E49FE8006002AA /* Mac-Application.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-			};
-			name = Profile;
-		};
 		D047264019E4A008006002AA /* Profile */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
@@ -3063,17 +2322,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
-			};
-			name = Profile;
-		};
-		D047264119E4A008006002AA /* Profile */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D047263219E49FE8006002AA /* iOS-Application.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 			};
 			name = Profile;
 		};
@@ -3137,21 +2385,6 @@
 			};
 			name = Test;
 		};
-		D047264419E4A00B006002AA /* Test */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D047263719E49FE8006002AA /* Mac-Application.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-			};
-			name = Test;
-		};
 		D047264519E4A00B006002AA /* Test */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
@@ -3167,24 +2400,12 @@
 			};
 			name = Test;
 		};
-		D047264619E4A00B006002AA /* Test */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D047263219E49FE8006002AA /* iOS-Application.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
-			};
-			name = Test;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		57A4D23C1BA13D7A00F7D4B1 /* Build configuration list for PBXNativeTarget "ReactiveObjC-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57A4D23D1BA13D7A00F7D4B1 /* Debug */,
 				57A4D23E1BA13D7A00F7D4B1 /* Test */,
 				57A4D23F1BA13D7A00F7D4B1 /* Release */,
 				57A4D2401BA13D7A00F7D4B1 /* Profile */,
@@ -3192,21 +2413,9 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DFBED0F1CDB8C9500EE435B /* Build configuration list for PBXNativeTarget "ReactiveObjC-tvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7DFBED0B1CDB8C9500EE435B /* Debug */,
-				7DFBED0C1CDB8C9500EE435B /* Test */,
-				7DFBED0D1CDB8C9500EE435B /* Release */,
-				7DFBED0E1CDB8C9500EE435B /* Profile */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A9B3155D1B3940610001CB9C /* Build configuration list for PBXNativeTarget "ReactiveObjC-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9B315591B3940610001CB9C /* Debug */,
 				A9B3155A1B3940610001CB9C /* Test */,
 				A9B3155B1B3940610001CB9C /* Release */,
 				A9B3155C1B3940610001CB9C /* Profile */,
@@ -3217,7 +2426,6 @@
 		D04725E419E49ED7006002AA /* Build configuration list for PBXProject "ReactiveObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D04725FE19E49ED7006002AA /* Debug */,
 				D047264219E4A00B006002AA /* Test */,
 				D04725FF19E49ED7006002AA /* Release */,
 				D047263D19E4A008006002AA /* Profile */,
@@ -3228,7 +2436,6 @@
 		D047260019E49ED7006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D047260119E49ED7006002AA /* Debug */,
 				D047264319E4A00B006002AA /* Test */,
 				D047260219E49ED7006002AA /* Release */,
 				D047263E19E4A008006002AA /* Profile */,
@@ -3236,35 +2443,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D047260319E49ED7006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC-macOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D047260419E49ED7006002AA /* Debug */,
-				D047264419E4A00B006002AA /* Test */,
-				D047260519E49ED7006002AA /* Release */,
-				D047263F19E4A008006002AA /* Profile */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D047261F19E49F82006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D047262019E49F82006002AA /* Debug */,
 				D047264519E4A00B006002AA /* Test */,
 				D047262119E49F82006002AA /* Release */,
 				D047264019E4A008006002AA /* Profile */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D047262219E49F82006002AA /* Build configuration list for PBXNativeTarget "ReactiveObjC-iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D047262319E49F82006002AA /* Debug */,
-				D047264619E4A00B006002AA /* Test */,
-				D047262419E49F82006002AA /* Release */,
-				D047264119E4A008006002AA /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
